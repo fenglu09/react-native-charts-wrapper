@@ -14,7 +14,7 @@ open class RNCandleStickChartManager: RCTViewManager, RNBarLineChartBaseManager 
     return ins;
   }
 
-   open static func requiresMainQueueSetup() -> Bool {
+  open  override static func requiresMainQueueSetup() -> Bool {
     return true;
   }
   
